@@ -3,3 +3,5 @@
   tasks:
     - vyos_config:
         backup: yes
+  ansible_facts:
+    ansible_os_family: vyos
