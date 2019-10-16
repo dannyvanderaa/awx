@@ -5,6 +5,6 @@
     - name: Backup Configuration VYOS router 
       vyos_config:
         backup: yes
-	      backup_options:
+        backup_options:
           dir_path: /data/backup/vyos
 
