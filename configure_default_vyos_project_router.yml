@@ -1,0 +1,9 @@
+- hosts: all
+  gather_facts: false
+  connection: network_cli
+  tasks:
+    - name: Configure Hostname
+      vyos_config:
+        lines: 
+          - set system host-name {{ inventory_hostname }}
+
