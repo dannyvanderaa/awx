@@ -4,4 +4,6 @@
   tasks:
     - vyos_config:
         backup: yes
+	backup_options:
+          dir_path: /data/backup/vyos
 
